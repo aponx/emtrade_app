@@ -250,7 +250,7 @@ class EducationState extends State<EducationActivity> {
               Expanded(
                 // child: anyData(),
 
-                child: _isLoading ? shimmerLoad() : (contentList.isNotEmpty ? anyData() : noData()),
+                child: _isLoading && page < 2 ? shimmerLoad() : (contentList.isNotEmpty ? anyData() : noData()),
               ),
             ],
           )
