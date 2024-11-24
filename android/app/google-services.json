@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "285569169786",
+    "project_id": "aprilr-2491",
+    "storage_bucket": "aprilr-2491.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285569169786:android:02617646dfcba850327ec3",
+        "android_client_info": {
+          "package_name": "com.aprilr.emtrade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjtlpNqjFWPOJrHQKrUcPguC31Y0z5r2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
