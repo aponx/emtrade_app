@@ -12,8 +12,12 @@ class ApiService {
     if(contentFormat != ""){
       contentString = ",content_format:$contentFormat";
     }
+
+    String url = "$baseUrl/content/public/v1/post?page=$page&size=$pagesize&sort=$sort&query=search:$search$categoryString$contentString";
+    print("=== url ===");
+    print(url);
     Response response = await get(
-      Uri.parse("$baseUrl/content/public/v1/post?page=$page&size=$pagesize&sort=$sort&query=search:$search$categoryString$contentString"),
+      Uri.parse(url),
       headers: {
         "Accept": "application/json",
         'Content-Type': 'application/json'
